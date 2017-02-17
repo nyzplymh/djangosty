@@ -1,0 +1,17 @@
+.header{
+    height: 48px;
+    background-color: red;
+}
+.body{
+    background-color: #dddddd;
+}
+.body .menu{
+    background-color: green;
+    float: left;
+    width: 20%;
+}
+.body .content{
+    background-color: aquamarine;
+    float: left;
+    width:70%;
+}

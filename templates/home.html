@@ -1,0 +1,38 @@
+{% load html_Template_Langureg %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shuaige</title>
+</head>
+<body>
+{#    <div style="background-color:red ;height: 100px">#}
+{#        {{ name }}#}
+{#        {{ age }}#}
+{#    </div>#}
+{#    <div style="background-color:blue ;height: 100px">#}
+{#        <ul>#}
+{#            {% for iterm in user_list %}#}
+{#                <li> {{ iterm }} </li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </div>#}
+{#    <div style="background-color:green ;height: 100px">#}
+{#        {% if name == 'luotianshuai' %}#}
+{#            <div style="background-color:red">Shuai</div>#}
+{#        {% else %}#}
+{#            <div style="background-color:blue">Ge</div>#}
+{#        {% endif %}#}
+{#    </div>#}
+{#    <div>#}
+{#        {% my_simple_time 1 2 3 %}#}
+{#        {% my_input 'id_name' 'arg_value' %}#}
+{#    </div>#}
+
+    <div>
+        {% for row in list %}
+            {{ row }}
+        {% endfor %}
+    </div>
+</body>
+</html>

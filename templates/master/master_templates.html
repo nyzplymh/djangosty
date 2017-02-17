@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="/static/css/common.css">
+    {#公共的样式放在母版里#}
+    {% block css %} {% endblock %}
+</head>
+<body>
+    <div class="header"><h1>LOGO</h1></div>
+    <div class="body">
+        <div class="menu">左侧菜单</div>
+        <div class="content">
+            {#可变的子版内容,这个content和class content无关#}
+            {% block content %} {% endblock %}
+        </div>
+    </div>
+    {#公共的js放在母版里#}
+    {% block js %} {% endblock %}
+</body>
+</html>
